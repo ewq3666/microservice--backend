@@ -1,6 +1,6 @@
 const agent=require("../model/agentInfoModel")
 
-
+console.log("runnig");
 const createAgent = async(req,res)=>{
    try {
     let {agentName,Mobile,Password,Collection,TotalDays,UserId,Commision,agentID,}=req.body;
